@@ -61,7 +61,8 @@
         // ==========================================
         // GOOGLE APPS SCRIPT WEB APP URL (DATABASE SYNC)
         // ==========================================
-      const WEB_APP_URL = https://script.google.com/macros/s/AKfycbxT-xFxfmFvQP6vjYHyblPScPNU149T_R6mFW0xQSkJahXK4KnV1-F1psBzZdzf6x43/exec;
+        const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxT-xFxfmFvQP6vjYHyblPScPNU149T_R6mFW0xQSkJahXK4KnV1-F1psBzZdzf6x43/exec";
+
         // ==========================================
         // STATE MANAGEMENT & INITIAL DATA
         // ==========================================
@@ -631,9 +632,6 @@
             `;
         }
 
-        // ==========================================
-        // FITUR KELOLA PEGAWAI (LENGKAP & DIPERBAIKI)
-        // ==========================================
         function renderMasterPegawaiView() {
             return `
                 <div class="space-y-6">
@@ -761,7 +759,6 @@
             updateCalculatedTarif();
         }
 
-        // Placeholder untuk view lainnya
         function renderPenerimaanView() { return `<div class="bg-white p-6 rounded-xl border shadow-sm"><h3 class="text-base font-bold mb-4">Penerimaan Kas</h3></div>`; }
         function renderPengeluaranView() { return `<div class="bg-white p-6 rounded-xl border shadow-sm"><h3 class="text-base font-bold mb-4">Pengeluaran Kas</h3></div>`; }
         function renderBukuKasView() { return `<div class="bg-white p-6 rounded-xl border shadow-sm"><h3 class="text-base font-bold mb-4">Buku Kas Digital</h3></div>`; }
